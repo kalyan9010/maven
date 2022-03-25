@@ -24,8 +24,8 @@ public class App
     public static void main( String[] args )
     {
         Calculater calculater1 = new Calculater();
-        calculater1.add(2, 4);
-        calculater1.product(5, 4);
+        System.out.println(calculater1.add(2,4));
+        System.out.println(calculater1.product(5,4));
         		
     }
 }
