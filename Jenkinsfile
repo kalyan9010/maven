@@ -4,13 +4,13 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Welcome To Stage compile'
-                sh 'mvn compiler:compile'
+                sh 'mvn compile'
             }
         }
         stage('Test') {
             steps {
                 echo 'Welcome To Stage test'
-                sh 'compiler:testCompile'
+                sh 'mvn test'
             }
         }
     }
